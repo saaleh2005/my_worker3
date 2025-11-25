@@ -1,0 +1,9 @@
+name = "aquaworldbot-worker"
+main = "index.js"
+compatibility_date = "2025-11-25"
+
+kv_namespaces = [
+  { binding = "WARNINGS_KV", id = "0d75ef9b7be644e38496b70e2364ce13" },
+  { binding = "BADWORDS_KV", id = "617753d411c24cdabe468d6fdf32b7fb" },
+  { binding = "ADMINS_KV",   id = "a27d6441e845409cb69485a7a20487c5" }
+]
